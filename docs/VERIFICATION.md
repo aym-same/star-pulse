@@ -18,8 +18,8 @@ pwsh -NoProfile -File .\build.ps1
 | 起動Activity | `com.smartglasses.starpulse.MainActivity` |
 | SDK設定 | compile API 36、min API 24、target API 28 |
 | アプリ本体 | Java・Manifest・valuesの5ファイルは、改行・末尾空白の整理を除き元版と一致 |
-| 公開対象 | ソース・文書・MITライセンス・画像など14ファイル |
-| 除外対象 | 署名鍵、APK、ビルド中間物、生の端末ログ、制作中の紹介画像と生成プロンプト |
+| 公開対象 | ソース・文書・MITライセンス・画面画像。制作背景と最初の指示文も掲載 |
+| 除外対象 | 署名鍵、APK、ビルド中間物、生の端末ログ、制作中の紹介画像とその画像生成プロンプト |
 
 元のmanifestのtarget API 28を保持し、ビルドスクリプトの指定も28に揃えました。SDKとJDKの個人環境への固定パスを環境変数・標準Windowsパスに置き換え、ビルド出力の削除対象を検査する処理を強化しています。アプリ本体の動作は変更していません。
 
