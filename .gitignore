@@ -1,0 +1,22 @@
+# Generated build files and local signing material
+build/
+artifacts/
+*.apk
+*.idsig
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Machine-specific configuration and credentials
+local.properties
+.env
+.env.*
+!.env.example
+.gradle/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
